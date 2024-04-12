@@ -1,21 +1,15 @@
 /**
- ██████╗░████████╗██╗░░██╗           
- ██╔══██╗╚══██╔══╝╚██╗██╔╝          
- ██████╔╝░░░██║░░░░╚███╔╝░          
- ██╔══██╗░░░██║░░░░██╔██╗░          
- ██║░░██║░░░██║░░░██╔╝╚██╗          
- ╚═╝░░╚═╝░░░╚═╝░░░╚═╝░░╚═╝          
-  GIT : https://github.com/RTX-GAMINGG/Bot-ghost-status-remover-by-RTX
-  DISCORD SERVER : https://discord.gg/FUEHs7RCqz
-  YOUTUBE : https://www.youtube.com/channel/UCPbAvYWBgnYhliJa1BIrv0A
+█▀▀ █ █▀█ █▀▀ █▄▄ █▀█ ▀█▀
+█▀░ █ █▀▄ ██▄ █▄█ █▄█ ░█░  
+
  * **********************************************
- *   Code by RTX GAMING
+ *   Code by FIREBOT
  * **********************************************
  */
 
 
 
-const { Client, GatewayIntentBits, ActivityType, TextChannel } = require('discord.js');
+const { Client, GatewayIntentBits, ActivityType, TextChannel } = require('discord.rz');
 require('dotenv').config();
 const express = require('express');
 const fs = require('fs');
@@ -31,12 +25,12 @@ app.get('/', (req, res) => {
   res.send('YaY Your Bot Status Changed✨');
 });
 app.listen(port, () => {
-  console.log(`🔗 Listening to RTX: http://localhost:${port}`);
-  console.log(`🔗 Powered By RTX`);
+  console.log(`🔗 Listening to RED ZOBE: http://localhost:${port}`);
+  console.log(`🔗 Powered By RZ`);
 });
 
 
-const statusMessages = ["Listening to Spotify","Watching YouTube"];
+const statusMessages = ["Playing to Server Setup","RED - ZONE"];
 
 
 let currentIndex = 0;
@@ -47,23 +41,17 @@ async function login() {
     await client.login(process.env.TOKEN);
     console.log(`\x1b[36m%s\x1b[0m`, `|    🐇 Logged in as ${client.user.tag}`);
   } catch (error) {
-    console.error('Failed to log in:', error);
+    console.error();
     process.exit(1);
   }
 }
 
 /**
- ██████╗░████████╗██╗░░██╗           
- ██╔══██╗╚══██╔══╝╚██╗██╔╝          
- ██████╔╝░░░██║░░░░╚███╔╝░          
- ██╔══██╗░░░██║░░░░██╔██╗░          
- ██║░░██║░░░██║░░░██╔╝╚██╗          
- ╚═╝░░╚═╝░░░╚═╝░░░╚═╝░░╚═╝          
-GIT : https://github.com/RTX-GAMINGG/Bot-ghost-status-remover-by-RTX
-  DISCORD SERVER : https://discord.gg/FUEHs7RCqz
-  YOUTUBE : https://www.youtube.com/channel/UCPbAvYWBgnYhliJa1BIrv0A
+█▀▀ █ █▀█ █▀▀ █▄▄ █▀█ ▀█▀
+█▀░ █ █▀▄ ██▄ █▄█ █▄█ ░█░ 
+
  * **********************************************
- *   Code by RTX GAMING
+ *   Code by FIREBOT
  * **********************************************
  */
 
@@ -92,8 +80,8 @@ function updateStatusAndSendMessages() {
 
 client.once('ready', () => {
   console.log(`\x1b[36m%s\x1b[0m`, `|    ✅ Bot is ready as ${client.user.tag}`);
-  console.log(`\x1b[36m%s\x1b[0m`, `|    ✨HAPPY NEW YEAR MY DEAR FAMILY`);
-  console.log(`\x1b[36m%s\x1b[0m`, `|    ❤️WELCOME TO 2024`);
+  console.log(`\x1b[36m%s\x1b[0m`, `|    ✨HELLO RED ZONE FAMILY 💞`);
+  console.log(`\x1b[36m%s\x1b[0m`, `|    ❤️WELCOME TO THE SERVER 🥰`);
   updateStatusAndSendMessages();
 
   setInterval(() => {
@@ -101,19 +89,13 @@ client.once('ready', () => {
   }, 10000);
 });
 
-login();
+login(1203685608216854538);
 
 /**
- ██████╗░████████╗██╗░░██╗           
- ██╔══██╗╚══██╔══╝╚██╗██╔╝          
- ██████╔╝░░░██║░░░░╚███╔╝░          
- ██╔══██╗░░░██║░░░░██╔██╗░          
- ██║░░██║░░░██║░░░██╔╝╚██╗          
- ╚═╝░░╚═╝░░░╚═╝░░░╚═╝░░╚═╝          
-GIT : https://github.com/RTX-GAMINGG/Bot-ghost-status-remover-by-RTX
-  DISCORD SERVER : https://discord.gg/FUEHs7RCqz
-  YOUTUBE : https://www.youtube.com/channel/UCPbAvYWBgnYhliJa1BIrv0A
+█▀▀ █ █▀█ █▀▀ █▄▄ █▀█ ▀█▀
+█▀░ █ █▀▄ ██▄ █▄█ █▄█ ░█░   
+
  * **********************************************
- *   Code by RTX GAMING
+ *   Code by FIREBOT
  * **********************************************
  */
